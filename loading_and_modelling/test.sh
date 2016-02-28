@@ -1,4 +1,4 @@
-/root/start-hadoop.sh
+sh /root/start-hadoop.sh
 su - w205
 hdfs dfs -mkdir /user/w205/hospital_compare
 mkdir hospital_raw
