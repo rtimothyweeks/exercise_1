@@ -1,3 +1,3 @@
-#!/bin/bash	
-bash /root/start-hadoop.sh
+#!/bin/sh	
+sh /root/start-hadoop.sh
 echo "hadoop started"
