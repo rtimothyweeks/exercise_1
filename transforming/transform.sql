@@ -1,6 +1,5 @@
 CREATE TABLE survey_fact
 as
-(
 select
 provider_number,
 hospital_name,
@@ -20,4 +19,4 @@ int(substr(overall_rating_of_hospital_dimension_score,1,1)) as overall,
 hcahps_base_score,
 hcahps_consistency_score
 from surveys
-);
+;
