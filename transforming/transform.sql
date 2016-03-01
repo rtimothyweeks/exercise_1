@@ -1,3 +1,5 @@
+DROPT TABLE survey_fact;
+
 CREATE TABLE survey_fact
 as
 select
