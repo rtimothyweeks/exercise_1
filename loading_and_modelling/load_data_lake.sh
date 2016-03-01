@@ -1,3 +1,6 @@
+wget https://data.medicare.gov/views/bg9k-emty/files/Dlx5-ywq01dGnGrU09o_Cole23nv5qWeoYaL-OzSLSU?content_type=application%2Fzip%3B%20charset%3Dbinary&filename=Hospital_Revised_Flatfiles.zip
+mv 'Dlx5-ywq01dGnGrU09o_Cole23nv5qWeoYaL-OzSLSU?content_type=application%2Fzip; charset=binary' raw_files.zip
+unzip raw_files.zip
 sed 1d "Hospital General Information.csv" > hospitals_ucb.csv
 sed 1d "Timely and Effective Care - Hospital.csv" > effective_care_ucb.csv
 sed 1d "Readmissions and Deaths - Hospital.csv" > readmissions_ucb.csv
