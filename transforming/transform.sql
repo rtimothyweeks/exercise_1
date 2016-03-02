@@ -1,4 +1,4 @@
-DROPT TABLE survey_fact;
+DROP TABLE survey_fact;
 
 CREATE TABLE survey_fact
 as
